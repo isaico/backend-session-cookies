@@ -2,7 +2,6 @@ import express from 'express';
 import 'dotenv/config';
 const app = express();
 const PORT = 8080;
-
 // import CookieParser from 'cookie-parser';
 import session from 'express-session';
 import MongoStore from 'connect-mongo';
